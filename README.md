@@ -41,11 +41,7 @@ The solution follows SOLID principles and uses a modular architecture:
 
 ### Run the challenge (creates the megaverse based on current goal):
 ```bash
-npm run dev
-# or
 npm run start <CANDIDATE_ID>
-# or
-npx ts-node src/index.ts
 ```
 
 ### Clear the grid:
