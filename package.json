@@ -1,0 +1,21 @@
+{
+  "name": "megaverse-challenge",
+  "version": "1.0.0",
+  "description": "Crossmint Megaverse Challenge Solution",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clear": "node dist/index.js CANDIDATE_ID clear"
+  },
+  "author": "Brian Cepon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
