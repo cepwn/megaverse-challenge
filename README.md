@@ -56,10 +56,9 @@ npm run start <CANDIDATE_ID> clear
 1. **Single Executor**: One executor handles any goal map, making it phase-agnostic
 2. **Abstract Base Classes**: Used for API clients to ensure consistent error handling and retry logic
 3. **Builder Pattern**: Megaverse builder separates construction logic from business logic
-4. **Singleton Logger**: Ensures consistent logging throughout the application
-5. **Rate Limiter**: Prevents API throttling and ensures smooth execution
-6. **Error Recovery**: Continues execution even if individual objects fail to create
-7. **Dependency Injection**: Make components more testable
+4. **Rate Limiter**: Prevents API throttling and ensures smooth execution
+5. **Error Recovery**: Continues execution even if individual objects fail to create
+6. **Dependency Injection**: Make components more testable
 
 ## Extension Points
 
